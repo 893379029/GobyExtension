@@ -1,0 +1,28 @@
+{
+	"name": "Task Queue",
+	"publisher": "GobySec",
+	"description": " This plugin can customize scan tasks. After the current task is completed, the next task will be automatically enabled. You can also drag and drop the task list to sort and create scheduled tasks.",
+	"version": "0.2.3",
+	"icon": "src/assets/img/logo2.png",
+	"engines": "1.8.261",
+	"initEvents": "",
+	"main": "./src/extension.js",
+	"contributes": {
+		"views": {
+				"toolbar":[
+					{
+						"command": "addTask",
+						"title": "Task Queue ",
+						"icon": "src/assets/img/logo2.png",
+						"tips":"Task Queue"
+					}
+				]
+		}
+	},
+	"language":{
+		"CN":"src/assets/translate/CN/translate.json"
+	},
+	"scripts": {},
+	"devDependencies": {},
+	"dependencies": {}
+}
